@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* global settings */
+
+body {
+  margin: 0;
+}
+
+* {
+   
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+  }
+
+h1, h2, h3, h4, span {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+
+
+@media (min-width: 500px) {  /* large screen */
+  
+  body {
+    background-color: white;
+  }
+
+  .navbar__container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 0 50px;
+  }
+
+  /* global nav bar settings */
+  .navbar {
+    background-color: #F7FBFC;
+  }
+
+  /* sides sections of the nav bar */
+  .navbar__left-side{
+    display: flex;
+    justify-content: center;
+    color: #0B758B;
+  }
+  
+  /* middle section of the nav bar */
+  .navbar__menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 0;
+  }
+
+  .navbar__link {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;    
+    transition: .4s;
+  }
+
+  .navbar__link:hover {
+    color: #0B758B;  
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navbar__right-side {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .first {
+    min-height: calc(80vh - 97px);
+    background: linear-gradient(111.71deg, #1BBBDC 0.82%, #09353F 97.06%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
+  }
+
+  .first__container {
+    padding: 51px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .first__left {
+    width: 30%;
+  }
+
+  .first__bean {
+    margin-bottom: 20px;
+  }
+
+  .first__bean span {
+    background-color: #000;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+  }
+
+  .first__title h1 {
+    font-size: 3rem;
+  }
+
+  .first__right {
+    width: 60%;
+  }
+
+  .first__right img {
+    width: 100%;
+  }
+
+  .second {
+    height: 100vh;
+    margin-top: -200px;
+    background: #F8FBFD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media (min-width: 601) and (min-width: 600){  /* tablets */
+  
+}
+
+@media (min-width: 600) {  /* mobile phones */
+  
+}
