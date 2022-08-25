@@ -178,6 +178,29 @@ h1, h2, h3, h4, span {
   .second__slider{
     display:  flex;
     align-items: center;
+    padding: 20px;
+  }
+
+  .second__slider-frame {
+    display: grid;
+    grid-template-columns: 3% 90% 3%;
+    margin: 0;
+  }
+
+  .second__arrows {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .second__arrows img {
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .second__arrows img:hover {
+    transform: scale(1.5);
+    transition: 0.3s ease-in-out;
   }
 
   .second__images {
