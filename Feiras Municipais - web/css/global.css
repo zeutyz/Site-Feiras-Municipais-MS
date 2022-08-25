@@ -340,8 +340,133 @@ h1, h2, h3, h4, span {
   .third__h-line hr {
     border: none;
     height: 2px;
-    background: radial-gradient(circle, rgb(49, 51, 71) 0%, rgba(18, 18, 43, 0) 100%); 
+    background: radial-gradient(circle, rgb(49, 51, 71) 0%, rgba(104, 104, 138, 0) 100%); 
   }
+
+
+  .rodape {
+    background-color: F8FBFD;
+    margin: 0;
+    padding-top: 25px;
+  }
+
+  .rodape__container {
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto; 
+  }
+
+  .rodape__body{
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 40px;
+  }
+
+  .rodape__content {
+
+  }
+
+  .rodape__menu {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+  }
+
+  .rodape__icons {
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    
+  }
+  .rodape__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;    
+    transition: .4s;
+  }
+
+  .rodape__link:hover {
+    color: #0B758B;  
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+  .rodape__link img{  
+    transition: 0.4s;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .rodape__link img:hover{    
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+
+
+  .rodape__copy-right {
+    margin: -10px 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .rodape__v-line {
+    height: 70%;
+    width: 1px;
+    margin-right: 125px;
+    background-color: rgb(177, 177, 177);
+  }
+
+  .rodape__logos {
+    display: block;
+
+  }
+
+  .rodape__top-logos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 55% 25% 25%;
+
+  }
+
+  .rodape__top-logos img {
+    padding: 8px;
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+  }
+
+  .rodape__top-logos img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+  }
+
+  .rodape__bottom-logos {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 25% 60% 20%;
+
+  }
+
+  .rodape__bottom-logos img {
+    padding: 8px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .rodape__bottom-logos img:hover {
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+  }
+
 
 }
 
